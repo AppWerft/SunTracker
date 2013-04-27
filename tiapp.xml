@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">GmuKYsZRXi4hh1TfuXPmrl5AaExdMxGq</property>
+    <property name="acs-oauth-key-production" type="string">70zimo1RrTBggb8ky3BtI0C7W04mXxUa</property>
+    <property name="acs-api-key-production" type="string">54OXT6YejsdfAVqTJ0bKE6I0JwEZCgAC</property>
+    <property name="acs-oauth-secret-development" type="string">cM8Qje4p2WOcP1JuqiycdLcYyDZn8J3x</property>
+    <property name="acs-oauth-key-development" type="string">BdFcjLULsloPydDkRuChUN7kIfcLraO1</property>
+    <property name="acs-api-key-development" type="string">2jnsHDRxWj5crokhDR1uSNSj2YEzNXFR</property>
+    <deployment-targets>
+        <target device="tizen">false</target>
+        <target device="mobileweb">false</target>
+        <target device="iphone">true</target>
+        <target device="ipad">false</target>
+        <target device="android">false</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <sdk-version>2.1.4.GA</sdk-version>
+    <id>de.appwerft.suntracker</id>
+    <name>SunTracker</name>
+    <version>1.0</version>
+    <publisher>rainerschleevoigt</publisher>
+    <url>http://</url>
+    <description>not specified</description>
+    <copyright>2012 by rainerschleevoigt</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>none</statusbar-style>
+    <statusbar-hidden>true</statusbar-hidden>
+    <fullscreen>true</fullscreen>
+    <navbar-hidden>true</navbar-hidden>
+    <analytics>false</analytics>
+    <guid>36fc6849-1494-4a14-8049-d0c9f826f3ae</guid>
+    <property name="ti.ui.defaultunit">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs" version="2.3.0">ti.cloud</module>
+    </modules>
+</ti:app>
